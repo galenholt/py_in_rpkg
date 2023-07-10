@@ -3,3 +3,4 @@
 ^PyInRpkg\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^.venv
