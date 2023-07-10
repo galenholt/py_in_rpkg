@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-in-rpkg"
+version = "0.1.0"
+description = ""
+authors = ["Galen Holt <53928785+galenholt@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "py_in_rpkg"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
